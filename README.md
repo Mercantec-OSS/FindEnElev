@@ -4,7 +4,7 @@ Det er helt friviligt for elever ved Mercantec at oprette sig, men det er et god
 
 For at kunne arbejde med projektet skal man have adgang til Firebase, lige nu er det kun Mathias GS som er adming og kan tilføje flere udviklere. Han kan kontaktes på MAGS@Mercantec.dk eller på teams med mags@edu.mercantec.dk!
 
-Det er hostet på Firebase og der er opsat standart CI/CD pipeline til at lave deploys på merges og PRs! Man kan tilgå live siden her - [FindEnElev.web.app](FindEnElev.web.app)
+Det er hostet på Firebase og der er opsat standart CI/CD pipeline til at lave deploys på merges og PRs! Man kan tilgå live siden her - [FindEnElev.web.app](https://findenelev.web.app/)
 
 # Svelte + TS + Vite
 
