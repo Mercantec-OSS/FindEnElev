@@ -1,47 +1,60 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
+  import OSSLogo from './assets/Mercantec-OSS-W.png'
+  import GHLogo from './assets/GitHub.png'
   import Counter from './lib/Counter.svelte'
+  import Footer from './lib/Footer.svelte'
+  import StudentCard from './lib/StudentCard.svelte';
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
+  <div class="header">
+    <a href="https://github.com/Mercantec-OSS/FindEnElev" target="_blank" rel="noreferrer">
+      <img src={OSSLogo} class="logo" alt="Mercantec-OSS Logo" />
     </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte Local</h1>
-
-  <div class="card">
-    <Counter />
+    <h1> Velkommen til Find En Elev</h1>
   </div>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <div class="students-container">
+    <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">John Doe</span>
+     </StudentCard>
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Mathias GS</span>
+     </StudentCard>  
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Anders</span>
+     </StudentCard>  
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Jesper</span>
+     </StudentCard>  
+  </div>
 </main>
+<Footer />
 
 <style>
   .logo {
-    height: 6em;
+    height: 12em;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
   }
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 2em #64ff76aa);
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+  .students-container {
+    display: flex;
+    gap: 20px; /* Adjust the value to increase or decrease the space */
+    padding: 20px;
   }
-  .read-the-docs {
-    color: #888;
-  }
+
+ main{
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+ }
+ .header{
+  display: flex;
+  align-items: center;
+ }
+
 </style>
