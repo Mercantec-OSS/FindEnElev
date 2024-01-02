@@ -6,8 +6,7 @@ For at kunne arbejde med projektet skal man have adgang til Firebase, lige nu er
 
 Det er hostet på Firebase og der er opsat standart CI/CD pipeline til at lave deploys på merges og PRs! Man kan tilgå siden her - <a href="https://findenelev.web.app/" target="_blank"> FindEnElev.web.app </a>
 
-# Svelte + TS + Vite
+# Techstack | Svelte, TS, Firebase & Tailwind
 
-## Recommended IDE Setup 
+### Recommended IDE Setup 
 Til projektet her anbefaler vi at bruge [VS Code](https://code.visualstudio.com/) som IDE. Her kan man bruge følgende extension [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
-
