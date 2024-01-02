@@ -16,7 +16,7 @@
 }
    
 .footer p {
- font-size: 2em; /* Same as parent font-size */
+ font-size: 1.2em; 
 }
 </style>
    

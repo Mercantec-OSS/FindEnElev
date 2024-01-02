@@ -1,7 +1,6 @@
 <script lang="ts">
   import OSSLogo from './assets/Mercantec-OSS-W.png'
   import GHLogo from './assets/GitHub.png'
-  import Counter from './lib/Counter.svelte'
   import Footer from './lib/Footer.svelte'
   import StudentCard from './lib/StudentCard.svelte';
 </script>
