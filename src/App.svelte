@@ -26,6 +26,15 @@
      <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
       <span slot="name">Jesper</span>
      </StudentCard>  
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Jesper</span>
+     </StudentCard>  
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Jesper</span>
+     </StudentCard>  
+     <StudentCard picture="{OSSLogo}" personalWebsite="http://example.com" githubProfile="https://github.com/Mercantec-OSS" GHPicture="{GHLogo}">
+      <span slot="name">Jesper</span>
+     </StudentCard>  
   </div>
 </main>
 <Footer />
@@ -42,7 +51,7 @@
   }
   .students-container {
     display: flex;
-    gap: 20px; /* Adjust the value to increase or decrease the space */
+    gap: 20px;
     padding: 20px;
   }
 
